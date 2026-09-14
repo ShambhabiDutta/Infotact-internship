@@ -25,8 +25,7 @@ All vehicle types have a maximum speed of 13.9 m/s.
 SUMO-generated static traffic-light programs are currently used.
 
 The generated program uses:
-- Green: 42 seconds
-- Yellow: 3 seconds
+- Traffic Lights: Static    SUMO-generated traffic-light programs with 30-second green and 3-second yellow phases.
 - Two-direction signal phases
 
 The traffic-light control will later be replaced/controlled through TraCI by the RL environment.
